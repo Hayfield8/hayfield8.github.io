@@ -52,18 +52,19 @@
 #project2 {
   max-width:1000px;
   margin:0 auto;
-  min-width:250px;
+  min-width:300px;
 }
 
 #project1 {
   max-width:1000px;
   margin:0 auto;
-  min-width:250px;
+  min-width:300px;
 }
 
 #projectsRow {
   max-width:1000px;
   margin:0 auto;
+  min-width:300px;
 }
 
 #navbar {
@@ -76,9 +77,6 @@
 
 body {
   background-color:#ffffff;
-}
-
-#project2 {
 }
 
 .paragraphs {
@@ -107,5 +105,11 @@ body {
   width:auto;
   height:auto;
   padding:40px;
+}
+
+@media (max-width: 400px) {
+  #projectsRow {
+    margin:-20px;
+  }
 }
 
