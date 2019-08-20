@@ -1,0 +1,95 @@
+#Intro {
+  text-align:center;
+  padding:40px;
+  margin-top:40px;
+}
+
+#Outro {
+  text-align:center;
+  padding:40px;
+}
+
+.siteSection {
+  padding:40px;
+  text-align:center;
+}
+
+.jumbotron {
+  border-radius:20px;
+  padding:20px;
+  background-color:rgba(255,0,0,0.75);
+  max-width:1000px;
+  margin:0 auto;
+}
+
+#face {
+  max-width:45%;
+  width:auto;
+  height:auto;
+  padding:40px;
+}
+
+@media (max-width: 576px) {
+  #face {
+    max-width:70%;
+    width:auto;
+    height:auto;
+    padding:20px;
+  }
+}
+
+#skills {
+  max-width:1000px;
+  margin:0 auto;
+}
+
+@media (max-width: 580px) {
+  #project2H3 {
+    margin-top:10px;
+  }
+}
+
+#project2 {
+  max-width:1000px;
+  margin:0 auto;
+  min-width:250px;
+}
+
+#project1 {
+  max-width:1000px;
+  margin:0 auto;
+  min-width:250px;
+}
+
+#projectsRow {
+  max-width:1000px;
+  margin:0 auto;
+}
+
+#navbar {
+  background-color:white;
+}
+
+#navbar {
+  background-color:white;
+}
+
+body {
+  background-color:#ffffff;
+}
+
+#project2 {
+}
+
+.paragraphs {
+  font-size:1.25rem;
+  font-weight:400;
+}
+
+@media (max-width: 610px) {
+  .paragraphs {
+    font-size:1rem;
+    font-weight:400;
+  }
+}
+
