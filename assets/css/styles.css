@@ -79,9 +79,6 @@ body {
   background-color:#ffffff;
 }
 
-#project2 {
-}
-
 .paragraphs {
   font-size:1.25rem;
   font-weight:400;
@@ -108,5 +105,11 @@ body {
   width:auto;
   height:auto;
   padding:40px;
+}
+
+@media (max-width: 400px) {
+  #projectsRow {
+    margin:-20px;
+  }
 }
 
