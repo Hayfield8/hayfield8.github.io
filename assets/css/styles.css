@@ -93,3 +93,19 @@ body {
   }
 }
 
+@media (max-width: 390px) {
+  #logo {
+    min-width:80%;
+    width:auto;
+    height:auto;
+    padding:20px;
+  }
+}
+
+#logo {
+  max-width:45%;
+  width:auto;
+  height:auto;
+  padding:40px;
+}
+
